@@ -1,0 +1,6 @@
+cc=gcc
+TARGET=main
+all: ex1.o
+	$(CC) ex1.c -o $(TARGET)
+clean:
+	rm $(TARGET)
